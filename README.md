@@ -30,4 +30,15 @@ If the write pointer catches up with the read pointer (or vice versa), the FIFO 
 
 **Write Pointer:** Keeps track of the location where the next data will be written.
 
-**Read Pointer:** Keeps track of where the next data will be read from
+**Read Pointer:** Keeps track of where the next data will be read from.
+
+# files 
+**Files**
+- sync_fifo.v: Verilog module for the 32-bit Synchronous FIFO.
+- tb.v: Testbench for the FIFO module.
+- run_file
+- simulation output
+
+# Usage
+- The FIFO module can be instantiated in other Verilog designs to handle buffering and data flow control. The testbench demonstrates basic read and write operations.
+
