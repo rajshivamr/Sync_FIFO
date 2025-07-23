@@ -20,14 +20,14 @@ If the write pointer catches up with the read pointer (or vice versa), the FIFO 
 
 # Components:
 
-FIFO Memory Array: The storage area where the data is stored.
+**FIFO Memory Array:** The storage area where the data is stored.
 
-Full/Empty Flags:
+**Full/Empty Flags:**
 
-Full Flag: Indicates the FIFO is full and no more data can be written until some is read out.
+*Full Flag:* Indicates the FIFO is full and no more data can be written until some is read out.
 
-Empty Flag: Indicates the FIFO is empty, so no data can be read until new data is written.
+*Empty Flag:* Indicates the FIFO is empty, so no data can be read until new data is written.
 
-Write Pointer: Keeps track of the location where the next data will be written.
+**Write Pointer:** Keeps track of the location where the next data will be written.
 
-Read Pointer: Keeps track of where the next data will be read from
+**Read Pointer:** Keeps track of where the next data will be read from
