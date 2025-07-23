@@ -12,10 +12,10 @@ Data is written into the FIFO in sequence, and read out in the same order it was
 
 # FIFO Operation:
 
-# Write Operation:
+## Write Operation:
 Data is written to the location pointed to by the write pointer, and the write pointer is incremented.
 
-# Read Operation: 
+## Read Operation: 
 Data is read from the location pointed to by the read pointer, and the read pointer is incremented.
 
 If the write pointer catches up with the read pointer (or vice versa), the FIFO either becomes full or empty, depending on the direction.
